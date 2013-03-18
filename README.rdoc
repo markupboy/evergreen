@@ -1,7 +1,5 @@
 = Evergreen
 
-{<img src="http://travis-ci.org/jnicklas/evergreen.png" />}[http://travis-ci.org/jnicklas/evergreen]
-
 "Because green is the new Blue(Ridge)"
 
 Evergreen is a tool to run javascript unit tests for client side JavaScript. It
@@ -9,7 +7,9 @@ combines a server which allows you to serve up and run your specs in a browser,
 as well as a runner which uses Capybara and any of its drivers to run your
 specs. Evergreen uses the Jasmine unit testing framework for JavaScript.
 
-http://github.com/jnicklas/evergreen
+original code from http://github.com/jnicklas/evergreen
+
+forked at http://github.com/markupboy/evergreen
 
 == Philosophy
 

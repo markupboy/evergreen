@@ -9,15 +9,15 @@ Gem::Specification.new do |s|
   s.rubyforge_project = "evergreen"
   s.version = Evergreen::VERSION
 
-  s.authors = ["Jonas Nicklas"]
-  s.email = ["jonas.nicklas@gmail.com"]
+  s.authors = ["Jonas Nicklas", "Blake Walters"]
+  s.email = ["jonas.nicklas@gmail.com", "blake@markupboy.com"]
   s.description = "Run Jasmine JavaScript unit tests, integrate them into Ruby applications."
 
   s.files = Dir.glob("{bin,lib,spec,config}/**/*") + %w(README.rdoc)
   s.extra_rdoc_files = ["README.rdoc"]
   s.executables = ['evergreen']
 
-  s.homepage = "http://github.com/jnicklas/evergreen"
+  s.homepage = "http://github.com/markupboy/evergreen"
   s.rdoc_options = ["--main", "README.rdoc"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.3.6"
